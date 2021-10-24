@@ -3,41 +3,10 @@ html {
 }
 
 body {
-    background: url('') no-repeat center center fixed;
-    background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
-/*home page design setup */
-.home_page_view{
-    background-image: url('media/homepage_background1.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 80px 100px;
-    }
-
-.car_box_container {
-    width:100%;
-    height: 70%;
-    background:rgb(12, 91, 182);
-    margin:10px auto;
-}
-
-.car_display {
-    width: 100%;
-}
-
-.car_front_header{
-    position:absolute;
-    top: 15%;
-    width:100%;
-    font-family: 'Lato';
-    text-align: center;
-    font-weight: bold;
-    color: white!important;
-}
-/*home page design setup ends */
 
 
 /* from Bulma */
@@ -48,6 +17,40 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
+
+/*my home page design setup */
+.home_page_view{
+    background-image: url('media/homepage_background1.jpg');
+    background-size:;
+    background-position: center;
+    padding: 80px 100px;
+    }
+
+.car_box_container {
+    width:100%;
+    top:10px;
+    height: 60%;
+    background:rgb(12, 91, 182);
+    margin:10px auto;
+}
+
+.car_display {
+    width: 100%;
+}
+
+.car_front_header{
+    position:absolute;
+    top: 30px;
+    width:100%;
+    padding-top: 150px;
+    font-family: 'Lato';
+    text-align: center;
+    font-weight: bold;
+    color: white!important;
+}
+/*home page design setup ends */
+
+
 
 .logo-font {
     text-transform: uppercase;
