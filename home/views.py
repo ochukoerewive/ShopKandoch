@@ -6,3 +6,9 @@ def index(request):
     """view to return the index page"""
 
     return render(request, 'home/index.html')
+
+# contact page.
+def contact(request):
+    """view to return the contact page"""
+
+    return render(request, 'home/contact.html')
