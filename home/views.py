@@ -12,3 +12,6 @@ def contact(request):
     """view to return the contact page"""
 
     return render(request, 'home/contact.html')
+
+def become_vendor(request):
+    return render(request, 'vendor/become_vendor.html')
